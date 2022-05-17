@@ -1,10 +1,4 @@
-# NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video
-### [Project Page](https://zju3dv.github.io/neuralrecon) | [Paper](https://arxiv.org/pdf/2104.00681.pdf)
-<br/>
-
-> NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video  
-> [Jiaming Sun](https://jiamingsun.ml)<sup>\*</sup>, [Yiming Xie](https://ymingxie.github.io)<sup>\*</sup>, [Linghao Chen](https://github.com/f-sky), [Xiaowei Zhou](http://www.cad.zju.edu.cn/home/xzhou/), [Hujun Bao](http://www.cad.zju.edu.cn/bao/)  
-> CVPR 2021 (Oral Presentation and Best Paper Candidate)
+NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video  
 
 <!-- > [NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video](https://arxiv.org/pdf/2104.15838.pdf)   -->
 ![real-time video](assets/neucon-demo.gif)
@@ -142,39 +136,3 @@ The training is seperated to two phases and the switching between phases is cont
 
 - Phase 2 (the remaining 21-50 epoch), with `GRUFusion`.
 `MODEL.FUSION.FUSION_ON=True, MODEL.FUSION.FULL=True`
-
-## Citation
-
-If you find this code useful for your research, please use the following BibTeX entry.
-
-```bibtex
-@article{sun2021neucon,
-  title={{NeuralRecon}: Real-Time Coherent {3D} Reconstruction from Monocular Video},
-  author={Sun, Jiaming and Xie, Yiming and Chen, Linghao and Zhou, Xiaowei and Bao, Hujun},
-  journal={CVPR},
-  year={2021}
-}
-```
-
-## Acknowledgment
-We would like to specially thank Reviewer 3 for the insightful and constructive comments. We would like to thank Sida Peng , Siyu Zhang and Qi Fang for the proof-reading.
-Some of the code in this repo is borrowed from [MVSNet_pytorch](https://github.com/xy-guo/MVSNet_pytorch), thanks Xiaoyang!
-
-## Copyright
-This work is affiliated with ZJU-SenseTime Joint Lab of 3D Vision, and its intellectual property belongs to SenseTime Group Ltd.
-
-```
-Copyright SenseTime. All Rights Reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
